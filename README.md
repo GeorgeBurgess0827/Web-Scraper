@@ -5,11 +5,11 @@ This is a web scraper built using Node.js and several libraries, including axios
 
 ## Getting Started
 1. Clone the repository to your local machine<br>
-`git clone https://github.com/your-username/web-scraper-books.git`<br> 
+`git clone https://github.com/GeorgeBurgess0827/Web-Scraper.git`<br> 
 2. Install the dependencies<br>
 `npm install`<br>
 3. Start the script<br>
-`node index.js`
+`node app.js`
 
 ## How it works
 The script starts by defining several constants, including the URL of the website to be scraped, a base URL, a link URL, and arrays to store the data and display of the books. It also defines a variable for the genre of the books.
@@ -27,9 +27,6 @@ The code then calls the `getGenre` and `getBooks` functions and starts an expres
 
 ## Authors
 George Burgess
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details
-
 
 ## Acknowledgments
 - [Abayomi Ogunnusi](https://dev.to/drsimplegraffiti/i-scraped-dev-to-using-axios-and-cheerio-26ko) for providing a helpful guide on using axios and cheerio to scrape a website
