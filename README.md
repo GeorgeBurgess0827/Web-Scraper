@@ -3,6 +3,8 @@
 Web Scraper for Books
 This is a web scraper built using Node.js and several libraries, including axios, cheerio, express, and json2csv. It scrapes a website for information on books, including the title, link, price, and stock, and saves this information to a CSV file.
 
+[Live Demo](https://web-scraper-books.onrender.com/results)
+
 ## Getting Started
 1. Clone the repository to your local machine<br>
 `git clone https://github.com/GeorgeBurgess0827/Web-Scraper.git`<br> 
@@ -10,6 +12,8 @@ This is a web scraper built using Node.js and several libraries, including axios
 `npm install`<br>
 3. Start the script<br>
 `node app.js`
+
+4. You can see the results at [localhost:3000/results](http://localhost:3000/results)
 
 ## How it works
 The script starts by defining several constants, including the URL of the website to be scraped, a base URL, a link URL, and arrays to store the data and display of the books. It also defines a variable for the genre of the books.
